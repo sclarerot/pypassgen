@@ -14,6 +14,7 @@ def generate_password(length: int) -> str:
     ]
 
     for _ in range(length):
+        random.shuffle(characters)
         rand_n1: int = random.randrange(0, 4)
         rand_n2: int = random.randrange(len(characters[rand_n1]))
 
