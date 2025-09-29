@@ -10,7 +10,7 @@ def generate_password(length: int) -> str:
         "abcdefghijklmnopqrstuvwxyz",
         "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
         "0123456789",
-        "!@#$%^&*[](){}<>£€_=:;,.?/~"
+        "!@#$%&*[](){}<>£€,.?"
     ]
 
     for _ in range(length):
